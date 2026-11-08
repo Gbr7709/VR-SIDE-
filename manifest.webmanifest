@@ -1,0 +1,17 @@
+{
+  "name": "Side on Side VR",
+  "short_name": "Side on Side VR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "description": "Cinema VR para iPhone: 2D, 3D SBS, 180 e 360 graus.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

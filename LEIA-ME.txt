@@ -1,0 +1,22 @@
+SIDE ON SIDE VR — PWA para visor VR de celular
+
+PUBLICAR NO GITHUB PAGES
+1. Extraia o ZIP.
+2. Envie os quatro arquivos desta pasta para a raiz do repositório GitHub (substitua os antigos): index.html, manifest.webmanifest, sw.js e icon.svg.
+3. Em Settings > Pages, selecione Deploy from a branch, main e / (root), depois Save.
+4. Abra a URL HTTPS no Safari do iPhone.
+
+USAR
+1. Escolha um vídeo.
+2. Selecione o tipo correto: 2D, 3D SBS, 180, 360, 180 3D SBS ou 360 3D SBS.
+3. Toque em Ativar movimento do iPhone e permita o sensor.
+4. Toque em Entrar no modo VR e coloque o iPhone horizontalmente no visor.
+
+NOTAS IMPORTANTES
+- Feito para visores passivos de celular (estilo Cardboard), não para Meta Quest.
+- Safari no iPhone não oferece WebXR imersivo; este protótipo usa WebGL, giroscópio e tela dividida manualmente. Portanto, não tem correção óptica ou rastreamento posicional completo.
+- O iPhone/Safari pode não permitir tela cheia de uma página inteira ou travar orientação; pode ser necessário esconder controles e usar o modo horizontal manualmente.
+- 180/360 espera vídeo equiretangular; 180/360 SBS divide a largura entre os olhos. Alguns vídeos usam outras projeções e podem precisar de ajustes.
+- Recomendado MP4 H.264/AAC. Outros codecs dependem do iOS.
+- O renderizador Three.js é carregado por CDN; precisa de internet na primeira abertura.
+- É um PWA, não um IPA nativo.
